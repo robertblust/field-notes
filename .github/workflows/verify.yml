@@ -1,0 +1,14 @@
+# The job is named `verify` because the branch ruleset requires a status check by that
+# name, the same contract the sibling site repositories use. Renaming the job silently
+# turns the protection off: the rule keeps waiting for a context nothing reports.
+name: verify
+on:
+  push:
+    branches: [main]
+  pull_request:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 verify.py

@@ -29,3 +29,15 @@ answer is obvious once you have it and the wrong turn is not.
 
 - [An ElevenLabs clip that clicks at the end](notes/elevenlabs-clip-ends-on-a-click.md) —
   two unrelated defects wearing one symptom, and only one of them is damage to the file.
+
+## Checking
+
+`python3 verify.py` resolves every relative link in every note. External URLs are
+deliberately not fetched — a checker that hits the network fails on someone else's outage,
+and a suite that cries wolf is one people stop reading. CI runs the same command.
+
+## Licence
+
+[CC BY 4.0](LICENSE). Use it, quote it, build on it; credit it. The prose is the artefact
+here, which is why this is a content licence rather than the Apache 2.0 the code
+repositories carry.
