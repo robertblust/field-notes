@@ -50,7 +50,7 @@ answer.
 A discontinuity scan flagged a "burst of near-full-scale noise erupting out of silence"
 mid-clip, at 267× the local median. It looked damning.
 
-It was ordinary speech. The scan compared each point against its *local* neighbourhood, and
+It was ordinary speech. The scan compared each point against its *local* neighborhood, and
 a consonant after a pause always wins that comparison. Measured against the **whole file**,
 where speech routinely peaked at 20000–29000, the burst was unremarkable. A ratio needs a
 denominator you chose on purpose.
@@ -123,7 +123,7 @@ Across three repositories, 86 clips:
 | detached burst | 17 (up to 195 ms) | 9, all under 80 ms and attenuated 6–9 dB |
 
 Every clip was measured under **two independent decoders**, which matters more than it
-sounds: `lame` honours the MP3 gapless tag and `afconvert` does not, so they disagreed
+sounds: `lame` honors the MP3 gapless tag and `afconvert` does not, so they disagreed
 about where a file ends. On two clips that disagreement was the difference between
 "defective" and "fine" — an early count of 3 affected files was really 5. A single-decoder
 result was decoder-dependent and I had stated it as fact.
@@ -150,5 +150,5 @@ right up until you fix the other.
 every repair, stop repairing the output and change the request. The fix belongs at the
 level the cause lives at, which is not always the level the symptom appears at.
 
-**Decoders disagree about the ends of files.** Gapless metadata is optional and honoured
+**Decoders disagree about the ends of files.** Gapless metadata is optional and honored
 inconsistently. Verify under more than one.
