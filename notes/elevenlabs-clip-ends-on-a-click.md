@@ -130,7 +130,7 @@ result was decoder-dependent and I had stated it as fact.
 
 And then a person listened to all of it, in both languages, start to finish.
 
-## What generalises
+## What generalizes
 
 **The ear is the oracle; the meter is an instrument.** Three times a measurement said the
 problem was solved and a listener said otherwise. Every one of those was a real
