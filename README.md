@@ -1,4 +1,4 @@
-# Field notes
+# Robert Blust — Field Notes
 
 Problems that took real work to understand, written down while the reasoning was still
 fresh. One file per problem.
