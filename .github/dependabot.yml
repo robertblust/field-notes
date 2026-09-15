@@ -1,0 +1,21 @@
+# GitHub Actions only, because a workflow is all this repository runs — verify.py uses the
+# standard library and there is no package manifest to watch. Two actions are pinned:
+#
+# - actions/checkout, bumped the ordinary way.
+# - The conventions check. Dependabot moves only the check.yml@ line, so its pull request goes
+#   red against conventions.json, and the red says this repository is behind a conventions
+#   release. Finish it on its own branch — move the tag in conventions.json, run
+#   `sh conventions/conventions-sync sync` — rather than closing it.
+#
+# Without this file nothing said so, and this repository fell behind unseen while its siblings
+# were told.
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    groups:
+      actions:
+        patterns:
+          - "*"
