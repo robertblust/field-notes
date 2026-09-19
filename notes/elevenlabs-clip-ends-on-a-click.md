@@ -103,7 +103,7 @@ Two guards keep the treatment off real speech, and both are needed. A final word
 rhetorical pause has the *same shape* as a detached release and differs only in scale:
 
 | | duration | level vs clip peak |
-|---|---|---|
+| --- | --- | --- |
 | consonant release | under 200 ms | at least 8 dB down |
 | final word after a pause | 320–430 ms | within 5 dB |
 
@@ -118,7 +118,7 @@ API sent them, which keeps a second lossy generation off audio that does not nee
 Across three repositories, 86 clips:
 
 | | before | after |
-|---|---|---|
+| --- | --- | --- |
 | truncated | 20 (worst step **8215**) | **0** |
 | detached burst | 17 (up to 195 ms) | 9, all under 80 ms and attenuated 6–9 dB |
 
