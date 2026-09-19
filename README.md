@@ -14,7 +14,7 @@ Every note carries the same five parts, and the second is the one that makes it 
 publishing:
 
 | | |
-|---|---|
+| --- | --- |
 | **Symptom** | in the words someone would actually search for, not the words of the diagnosis |
 | **What it wasn't** | each wrong explanation, with the evidence that killed it |
 | **Root cause** | what was actually happening |
