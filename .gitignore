@@ -3,6 +3,7 @@
 node_modules
 .vscode
 .claudian
+.superpowers
 
 .DS_Store
 __pycache__/
