@@ -12,15 +12,8 @@ Everything below this block is this repository's own. `sh conventions/convention
 
 # robertblust/field-notes — working conventions
 
-Problems that took real work to understand, one file per problem, in the five-part shape the
-README gives: symptom, what it was not, root cause, fix, how it was verified. The README is
-the manual for writing one; this file is only what an agent needs before touching anything
-here.
+Problems that took real work to understand, one file per problem, in the five-part shape the README gives: symptom, what it was not, root cause, fix, how it was verified. The README is the manual for writing one; this file is only what an agent needs before touching anything here.
 
 ## Checks
 
-Two jobs, both required by the ruleset on `main`: `verify`, which runs `python3 verify.py` and
-resolves every relative link in every note, and `conventions`, called from
-robertblust/conventions at the pinned tag and shown by GitHub as `conventions / conventions`.
-External URLs are not fetched on purpose; the README says why. Everything about how to write
-and how to work with git is in `conventions/`.
+Two jobs, both required by the ruleset on `main`: `verify`, which runs `python3 verify.py` and resolves every relative link in every note, and `conventions`, called from robertblust/conventions at the pinned tag and shown by GitHub as `conventions / conventions`. External URLs are not fetched on purpose; the README says why. Everything about how to write and how to work with git is in `conventions/`.
