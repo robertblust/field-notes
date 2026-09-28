@@ -1,0 +1,6 @@
+{
+  "pins": [
+    { "kind": "conventions", "file": "conventions.json", "repo": "robertblust/conventions" }
+  ],
+  "verify": ["python3 verify.py"]
+}
